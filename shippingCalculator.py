@@ -18,3 +18,15 @@ print("Ground Shipping $", shipping_cost)
 
 # Ground Shipping Premium
 print("Ground Shipping Premium $", shipping_cost_premium)
+
+# Drone Shipping (New)
+if weight <= 2:
+  drone_shipping_cost = weight * 4.50 + 0.00
+elif weight <= 6:
+  drone_shipping_cost = weight * 9.00 + 0.00
+elif weight <= 10:
+  drone_shipping_cost = weight * 12.00 + 0.00
+else:
+  drone_shipping_cost = weight * 14.25 + 0.00
+  
+print("Drone Shipping $", drone_shipping_cost)
