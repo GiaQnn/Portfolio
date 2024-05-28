@@ -36,3 +36,9 @@ elif random_number == 9:
   answer = "Very doubtful."
 else:
   answer = "Error"
+
+# if statement if there is no question.
+if question == "":
+  print("Ask the question.")
+else:
+  print("Magic 8-Ball's answer: ", answer)
